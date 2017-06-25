@@ -1,0 +1,3 @@
+OrderNum,CustomerName,StateAbbr,TaxRate,ProductType,AreaSqFt,MatCostPerSqFt,LaborCostPerSqFt,OrderMatCost,OrderLaborCost,OrderTax,OrderTotal
+1::Amber Tonn::OH::0.0625::Wood::554.35::5.15::4.75::2854.90::2633.16::343.00::5831.06
+2::Naf Naf Grill::OH::0.0625::Carpet::219.19::2.25::2.10::493.18::460.30::59.59::1013.07

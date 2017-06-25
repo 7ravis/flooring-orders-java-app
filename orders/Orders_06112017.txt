@@ -1,0 +1,3 @@
+OrderNum,CustomerName,StateAbbr,TaxRate,ProductType,AreaSqFt,MatCostPerSqFt,LaborCostPerSqFt,OrderMatCost,OrderLaborCost,OrderTax,OrderTotal
+2::Parkway Pizza::PA::0.0675::Wood::321.23::5.15::4.75::1654.33::1525.84::214.66::3394.83
+3::Bob Murphy::IN::0.0600::Carpet::674.09::2.25::2.10::1516.70::1415.59::175.94::3108.23

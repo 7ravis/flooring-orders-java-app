@@ -1,0 +1,3 @@
+OrderNum,CustomerName,StateAbbr,TaxRate,ProductType,AreaSqFt,MatCostPerSqFt,LaborCostPerSqFt,OrderMatCost,OrderLaborCost,OrderTax,OrderTotal
+1::Great Harvest Bread, Co.::MI::0.0575::Laminate::100.48::1.75::2.10::175.84::211.01::22.24::409.09
+2::Target::PA::0.0675::Tile::55.55::3.50::4.15::194.43::230.53::28.68::453.64
