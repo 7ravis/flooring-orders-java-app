@@ -100,7 +100,7 @@ public class View {
         displayOrder(order);
         return 1 == io.readInt("\nSubmit order? \n1. Yes \n2. No", 1, 2);
     }
-    public void editOrder(Order order, HashMap<String, Product> products, HashMap<String, State> states) {
+    public void editOrder(Order order, HashMap<String, Product> products, HashMap<String, State> states, LocalDate date) {
         io.printHeader("Edit Order");
         displayOrder(order);
         io.println("\nFor each field, enter new data or press the \"Enter\" key to skip.");

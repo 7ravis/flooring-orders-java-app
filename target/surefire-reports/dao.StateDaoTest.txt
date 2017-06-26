@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: dao.StateDaoTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.347 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.511 sec

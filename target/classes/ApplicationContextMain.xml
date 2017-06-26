@@ -39,4 +39,25 @@
         <constructor-arg ref="OrderService"/>
         <constructor-arg ref="View"/>
     </bean>
+    <bean id="LoggingAdvice" class="advice.LoggingAdvice"/>
+    
+    <aop:config>
+        <aop:aspect ref="LoggingAdvice">
+            <aop:after-returning
+                method="logAddOrder" 
+                pointcut="execution(* dao.OrderDaoImpl.addOrder(..)) &amp;&amp; args(order)"
+                arg-names="order"
+            />
+            <aop:after-returning
+                method="logRemoveOrder" 
+                pointcut="execution(* dao.OrderDaoImpl.removeOrder(..)) &amp;&amp; args(order,date)"
+                arg-names="order,date"
+            />
+            <aop:after-returning
+                method="logEditOrder" 
+                pointcut="execution(* ui.View.editOrder(..)) &amp;&amp; args(order,..,date)"
+                arg-names="order,date"
+            />
+        </aop:aspect>                
+    </aop:config>
 </beans>

@@ -83,7 +83,7 @@ public class Controller {
         if (order == null) {
             view.displayMessage("There are no records matching your search.");
         } else {
-            view.editOrder(order, service.getProducts(), service.getStates());
+            view.editOrder(order, service.getProducts(), service.getStates(), date);
             service.calculateCosts(order);
             view.displayHeader("Order Updated");
             view.displayOrder(order);
