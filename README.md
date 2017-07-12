@@ -1,2 +1,2 @@
 # flooring-orders-java-app
-MVC / n-tier architecture, interface-based, Spring DI, JUnit testing
+Java console application that manages purchase orders for a mock flooring company; uses MVC / n-tier architecture, interface-based programming, Spring Core, AOP audit logging, file IO, and JUnit testing.
